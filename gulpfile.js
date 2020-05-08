@@ -90,8 +90,8 @@ const serveur = function () {
         ghostMode: false,
         notify: false,
         //browser: ["firefox"]
-        //browser: ["google chrome"]
-        browser: ["firefox", "google chrome"]
+        browser: ["chrome"]
+        //browser: ["firefox", "google chrome"]
     });
     gulp.watch('**/*.css').on('change', browserSync.reload);
     gulp.watch('**/*.html').on('change', browserSync.reload);
